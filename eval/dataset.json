@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "question": "安全帽的有效期是多久？",
+    "expected_source": "01-安全帽与劳保用品佩戴规定.md",
+    "answer_keywords": [
+      "30"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "第一次发现没戴安全帽怎么处罚？",
+    "expected_source": "01-安全帽与劳保用品佩戴规定.md",
+    "answer_keywords": [
+      "200"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "工人第三次被发现不戴安全帽会怎么处理？",
+    "expected_source": "01-安全帽与劳保用品佩戴规定.md",
+    "answer_keywords": [
+      "清退",
+      "黑名单"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "噪声超过多少分贝必须戴耳塞？",
+    "expected_source": "01-安全帽与劳保用品佩戴规定.md",
+    "answer_keywords": [
+      "85"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "三级高处作业由谁审批？",
+    "expected_source": "02-高处作业安全规范.md",
+    "answer_keywords": [
+      "技术负责人"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "多少米以上算特级高处作业？",
+    "expected_source": "02-高处作业安全规范.md",
+    "answer_keywords": [
+      "30"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "几级大风天气禁止露天高处作业？",
+    "expected_source": "02-高处作业安全规范.md",
+    "answer_keywords": [
+      "六"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "操作平台的荷载上限是多少？",
+    "expected_source": "02-高处作业安全规范.md",
+    "answer_keywords": [
+      "270"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "一级动火作业由谁批准？",
+    "expected_source": "03-动火作业审批与管理规定.md",
+    "answer_keywords": [
+      "项目经理"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "一级动火证的有效期是几天？",
+    "expected_source": "03-动火作业审批与管理规定.md",
+    "answer_keywords": [
+      "1"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "氧气瓶和乙炔瓶之间的最小间距是多少？",
+    "expected_source": "03-动火作业审批与管理规定.md",
+    "answer_keywords": [
+      "5"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "动火点周围多少米内的可燃物必须清除？",
+    "expected_source": "03-动火作业审批与管理规定.md",
+    "answer_keywords": [
+      "10"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "动火作业结束后看火人要留守观察多久？",
+    "expected_source": "03-动火作业审批与管理规定.md",
+    "answer_keywords": [
+      "30"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "漏电保护器的额定动作电流上限是多少？",
+    "expected_source": "04-施工现场临时用电安全规定.md",
+    "answer_keywords": [
+      "30"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "开关箱与用电设备的距离不能超过多少米？",
+    "expected_source": "04-施工现场临时用电安全规定.md",
+    "answer_keywords": [
+      "3"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "潮湿场所的照明电压不能超过多少伏？",
+    "expected_source": "04-施工现场临时用电安全规定.md",
+    "answer_keywords": [
+      "24"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "发生较大事故，项目部必须在多久内上报公司？",
+    "expected_source": "05-安全事故上报与应急处理流程.md",
+    "answer_keywords": [
+      "30"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "瞒报事故会对项目负责人怎么处罚？",
+    "expected_source": "05-安全事故上报与应急处理流程.md",
+    "answer_keywords": [
+      "10000",
+      "撤职"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "项目部多久组织一次应急演练？演练包括哪些场景？",
+    "expected_source": "05-安全事故上报与应急处理流程.md",
+    "answer_keywords": [
+      "季度",
+      "触电",
+      "火灾"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "事故整改的\"四不放过\"具体指什么？",
+    "expected_source": "05-安全事故上报与应急处理流程.md",
+    "answer_keywords": [
+      "原因",
+      "责任人",
+      "整改措施",
+      "教育"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "灭火器的报废年限是几年？",
+    "expected_source": null,
+    "answer_keywords": [
+      "未提及",
+      "没有",
+      "未找到",
+      "无法回答",
+      "不包含"
+    ],
+    "note": "制度文档未覆盖，应拒答而非编造"
+  },
+  {
+    "id": 22,
+    "question": "公司年假有多少天？",
+    "expected_source": null,
+    "answer_keywords": [
+      "未提及",
+      "没有",
+      "未找到",
+      "无法回答",
+      "不包含"
+    ],
+    "note": "超出知识库范围，应拒答而非编造"
+  },
+  {
+    "id": 23,
+    "question": "工地上不戴安全帽被抓到第三次会怎么样",
+    "expected_source": "01-安全帽与劳保用品佩戴规定.md",
+    "answer_keywords": [
+      "清退",
+      "黑名单"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "乙炔瓶能不能躺着放？",
+    "expected_source": "03-动火作业审批与管理规定.md",
+    "answer_keywords": [
+      "直立",
+      "严禁"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "宿舍里能不能用热得快烧水？",
+    "expected_source": "04-施工现场临时用电安全规定.md",
+    "answer_checks": [
+      [
+        "严禁",
+        "禁止",
+        "不能",
+        "不允许"
+      ]
+    ]
+  },
+  {
+    "id": 26,
+    "question": "下暴雨的时候可以在室外进行高空作业吗？",
+    "expected_source": "02-高处作业安全规范.md",
+    "answer_keywords": [
+      "禁止"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "发现有人触电了，第一步应该怎么做？",
+    "expected_source": "05-安全事故上报与应急处理流程.md",
+    "answer_keywords": [
+      "断电"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "动火证一次最长能开几天？",
+    "expected_source": "03-动火作业审批与管理规定.md",
+    "answer_keywords": [
+      "3"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "想在油罐区烧焊，需要谁批准？",
+    "expected_source": "03-动火作业审批与管理规定.md",
+    "answer_keywords": [
+      "项目经理"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "急救箱里的药品应该多久检查一次？",
+    "expected_source": "05-安全事故上报与应急处理流程.md",
+    "answer_keywords": [
+      "每月"
+    ]
+  }
+]
