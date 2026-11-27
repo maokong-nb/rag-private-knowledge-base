@@ -7,20 +7,20 @@
 ```mermaid
 flowchart LR
     subgraph 入库[离线入库]
-        D[md/txt/pdf/docx 文档] --> L[ingest.py<br/>加载与切分]
-        L --> E[Embedding<br/>bge-small-zh-v1.5 本地]
-        E --> M[(Milvus Lite<br/>向量库)]
+        D["md/txt/pdf/docx 文档"] --> L["ingest.py<br/>加载与切分"]
+        L --> E["Embedding<br/>bge-small-zh-v1.5 本地"]
+        E --> M[("Milvus Lite<br/>向量库")]
     end
     subgraph 问答[在线问答]
-        Q[用户问题] --> R[检索 top-k<br/>余弦相似度 + 阈值过滤]
+        Q["用户问题"] --> R["检索 top-k<br/>余弦相似度 + 阈值过滤"]
         M --> R
-        R --> P[拼装带编号来源的上下文]
-        P --> G[LLM 生成<br/>强制 [编号] 引用]
-        G --> A[答案 + 来源列表]
-        R -.低于阈值.-> N[明确拒答，不编造]
+        R --> P["拼装带编号来源的上下文"]
+        P --> G["LLM 生成<br/>强制「编号」引用"]
+        G --> A["答案 + 来源列表"]
+        R -.低于阈值.-> N["明确拒答，不编造"]
     end
-    CLI[cli.py] --> 问答
-    API[FastAPI /ask] --> 问答
+    CLI["cli.py"] --> 问答
+    API["FastAPI /ask"] --> 问答
 ```
 
 关键设计：
